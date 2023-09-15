@@ -1,0 +1,95 @@
+C:\Users\OvidioDj\Desktop\Proyetos VBstudio\SerialPrimera\SerialPrimera\bin\Debug\SerialPrimera.exe.config
+C:\Users\OvidioDj\Desktop\Proyetos VBstudio\SerialPrimera\SerialPrimera\bin\Debug\SerialPrimera.exe
+C:\Users\OvidioDj\Desktop\Proyetos VBstudio\SerialPrimera\SerialPrimera\bin\Debug\SerialPrimera.pdb
+C:\Users\OvidioDj\Desktop\Proyetos VBstudio\SerialPrimera\SerialPrimera\bin\Debug\SerialPrimera.xml
+C:\Users\OvidioDj\Desktop\Proyetos VBstudio\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.vbprojAssemblyReference.cache
+C:\Users\OvidioDj\Desktop\Proyetos VBstudio\SerialPrimera\SerialPrimera\obj\Debug\WindowsApp1.Form1.resources
+C:\Users\OvidioDj\Desktop\Proyetos VBstudio\SerialPrimera\SerialPrimera\obj\Debug\WindowsApp1.Resources.resources
+C:\Users\OvidioDj\Desktop\Proyetos VBstudio\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.vbproj.GenerateResource.cache
+C:\Users\OvidioDj\Desktop\Proyetos VBstudio\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.vbproj.CoreCompileInputs.cache
+C:\Users\OvidioDj\Desktop\Proyetos VBstudio\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.exe
+C:\Users\OvidioDj\Desktop\Proyetos VBstudio\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.xml
+C:\Users\OvidioDj\Desktop\Proyetos VBstudio\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.pdb
+F:\EMI 2020\5to. Semestre\TRABAJO DE GRADO TECNICO\codigo\Proyecto final terminado Sgto Mamani Yucra\SerialPrimera\SerialPrimera\bin\Debug\SerialPrimera.exe.config
+F:\EMI 2020\5to. Semestre\TRABAJO DE GRADO TECNICO\codigo\Proyecto final terminado Sgto Mamani Yucra\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.exe
+F:\EMI 2020\5to. Semestre\TRABAJO DE GRADO TECNICO\codigo\Proyecto final terminado Sgto Mamani Yucra\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.xml
+F:\EMI 2020\5to. Semestre\TRABAJO DE GRADO TECNICO\codigo\Proyecto final terminado Sgto Mamani Yucra\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.pdb
+F:\EMI 2020\5to. Semestre\TRABAJO DE GRADO TECNICO\codigo\Proyecto final terminado Sgto Mamani Yucra\SerialPrimera\SerialPrimera\bin\Debug\SerialPrimera.exe
+F:\EMI 2020\5to. Semestre\TRABAJO DE GRADO TECNICO\codigo\Proyecto final terminado Sgto Mamani Yucra\SerialPrimera\SerialPrimera\bin\Debug\SerialPrimera.pdb
+F:\EMI 2020\5to. Semestre\TRABAJO DE GRADO TECNICO\codigo\Proyecto final terminado Sgto Mamani Yucra\SerialPrimera\SerialPrimera\bin\Debug\SerialPrimera.xml
+F:\EMI 2020\5to. Semestre\TRABAJO DE GRADO TECNICO\codigo\Proyecto final terminado Sgto Mamani Yucra\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.vbprojResolveAssemblyReference.cache
+F:\EMI 2020\5to. Semestre\TRABAJO DE GRADO TECNICO\codigo\Proyecto final terminado Sgto Mamani Yucra\SerialPrimera\SerialPrimera\obj\Debug\WindowsApp1.Form1.resources
+F:\EMI 2020\5to. Semestre\TRABAJO DE GRADO TECNICO\codigo\Proyecto final terminado Sgto Mamani Yucra\SerialPrimera\SerialPrimera\obj\Debug\WindowsApp1.Resources.resources
+F:\EMI 2020\5to. Semestre\TRABAJO DE GRADO TECNICO\codigo\Proyecto final terminado Sgto Mamani Yucra\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.vbproj.GenerateResource.Cache
+D:\EMI 2020\5to. Semestre\TRABAJO DE GRADO TECNICO\codigo\Proyecto final terminado Sgto Mamani Yucra\SerialPrimera\SerialPrimera\bin\Debug\SerialPrimera.exe.config
+D:\EMI 2020\5to. Semestre\TRABAJO DE GRADO TECNICO\codigo\Proyecto final terminado Sgto Mamani Yucra\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.exe
+D:\EMI 2020\5to. Semestre\TRABAJO DE GRADO TECNICO\codigo\Proyecto final terminado Sgto Mamani Yucra\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.xml
+D:\EMI 2020\5to. Semestre\TRABAJO DE GRADO TECNICO\codigo\Proyecto final terminado Sgto Mamani Yucra\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.pdb
+D:\EMI 2020\5to. Semestre\TRABAJO DE GRADO TECNICO\codigo\Proyecto final terminado Sgto Mamani Yucra\SerialPrimera\SerialPrimera\bin\Debug\SerialPrimera.exe
+D:\EMI 2020\5to. Semestre\TRABAJO DE GRADO TECNICO\codigo\Proyecto final terminado Sgto Mamani Yucra\SerialPrimera\SerialPrimera\bin\Debug\SerialPrimera.pdb
+D:\EMI 2020\5to. Semestre\TRABAJO DE GRADO TECNICO\codigo\Proyecto final terminado Sgto Mamani Yucra\SerialPrimera\SerialPrimera\bin\Debug\SerialPrimera.xml
+D:\EMI 2020\5to. Semestre\TRABAJO DE GRADO TECNICO\codigo\Proyecto final terminado Sgto Mamani Yucra\SerialPrimera\SerialPrimera\bin\Debug\System.Net.Http.dll
+D:\EMI 2020\5to. Semestre\TRABAJO DE GRADO TECNICO\codigo\Proyecto final terminado Sgto Mamani Yucra\SerialPrimera\SerialPrimera\bin\Debug\System.Net.Http.xml
+D:\EMI 2020\5to. Semestre\TRABAJO DE GRADO TECNICO\codigo\Proyecto final terminado Sgto Mamani Yucra\SerialPrimera\SerialPrimera\bin\Debug\es\System.Net.Http.resources.dll
+D:\EMI 2020\5to. Semestre\TRABAJO DE GRADO TECNICO\codigo\Proyecto final terminado Sgto Mamani Yucra\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.vbprojResolveAssemblyReference.cache
+D:\EMI 2020\5to. Semestre\TRABAJO DE GRADO TECNICO\codigo\Proyecto final terminado Sgto Mamani Yucra\SerialPrimera\SerialPrimera\obj\Debug\WindowsApp1.Form1.resources
+D:\EMI 2020\5to. Semestre\TRABAJO DE GRADO TECNICO\codigo\Proyecto final terminado Sgto Mamani Yucra\SerialPrimera\SerialPrimera\obj\Debug\WindowsApp1.Resources.resources
+D:\EMI 2020\5to. Semestre\TRABAJO DE GRADO TECNICO\codigo\Proyecto final terminado Sgto Mamani Yucra\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.vbproj.GenerateResource.Cache
+C:\Users\OvidioDj\Desktop\TRABAJOS\Sistema RF Modificacion\SerialPrimera\SerialPrimera\bin\Debug\SerialPrimera.exe.config
+C:\Users\OvidioDj\Desktop\TRABAJOS\Sistema RF Modificacion\SerialPrimera\SerialPrimera\bin\Debug\SerialPrimera.exe
+C:\Users\OvidioDj\Desktop\TRABAJOS\Sistema RF Modificacion\SerialPrimera\SerialPrimera\bin\Debug\SerialPrimera.pdb
+C:\Users\OvidioDj\Desktop\TRABAJOS\Sistema RF Modificacion\SerialPrimera\SerialPrimera\bin\Debug\SerialPrimera.xml
+C:\Users\OvidioDj\Desktop\TRABAJOS\Sistema RF Modificacion\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.vbprojAssemblyReference.cache
+C:\Users\OvidioDj\Desktop\TRABAJOS\Sistema RF Modificacion\SerialPrimera\SerialPrimera\obj\Debug\WindowsApp1.Form1.resources
+C:\Users\OvidioDj\Desktop\TRABAJOS\Sistema RF Modificacion\SerialPrimera\SerialPrimera\obj\Debug\WindowsApp1.Resources.resources
+C:\Users\OvidioDj\Desktop\TRABAJOS\Sistema RF Modificacion\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.vbproj.GenerateResource.cache
+C:\Users\OvidioDj\Desktop\TRABAJOS\Sistema RF Modificacion\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.vbproj.CoreCompileInputs.cache
+C:\Users\OvidioDj\Desktop\TRABAJOS\Sistema RF Modificacion\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.exe
+C:\Users\OvidioDj\Desktop\TRABAJOS\Sistema RF Modificacion\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.xml
+C:\Users\OvidioDj\Desktop\TRABAJOS\Sistema RF Modificacion\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.pdb
+C:\Users\OvidioDj\Desktop\TRABAJOS\Sistema RF Modificacion V2\SerialPrimera\SerialPrimera\bin\Debug\SerialPrimera.exe.config
+C:\Users\OvidioDj\Desktop\TRABAJOS\Sistema RF Modificacion V2\SerialPrimera\SerialPrimera\bin\Debug\SerialPrimera.exe
+C:\Users\OvidioDj\Desktop\TRABAJOS\Sistema RF Modificacion V2\SerialPrimera\SerialPrimera\bin\Debug\SerialPrimera.pdb
+C:\Users\OvidioDj\Desktop\TRABAJOS\Sistema RF Modificacion V2\SerialPrimera\SerialPrimera\bin\Debug\SerialPrimera.xml
+C:\Users\OvidioDj\Desktop\TRABAJOS\Sistema RF Modificacion V2\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.vbprojAssemblyReference.cache
+C:\Users\OvidioDj\Desktop\TRABAJOS\Sistema RF Modificacion V2\SerialPrimera\SerialPrimera\obj\Debug\WindowsApp1.Form1.resources
+C:\Users\OvidioDj\Desktop\TRABAJOS\Sistema RF Modificacion V2\SerialPrimera\SerialPrimera\obj\Debug\WindowsApp1.Resources.resources
+C:\Users\OvidioDj\Desktop\TRABAJOS\Sistema RF Modificacion V2\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.vbproj.GenerateResource.cache
+C:\Users\OvidioDj\Desktop\TRABAJOS\Sistema RF Modificacion V2\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.vbproj.CoreCompileInputs.cache
+C:\Users\OvidioDj\Desktop\TRABAJOS\Sistema RF Modificacion V2\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.exe
+C:\Users\OvidioDj\Desktop\TRABAJOS\Sistema RF Modificacion V2\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.xml
+C:\Users\OvidioDj\Desktop\TRABAJOS\Sistema RF Modificacion V2\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.pdb
+E:\proyecto de grado 2023\Sistema RF Modificacion V2 desde 0 a 9\Sistema RF Modificacion V2\SerialPrimera\SerialPrimera\bin\Debug\SerialPrimera.exe.config
+E:\proyecto de grado 2023\Sistema RF Modificacion V2 desde 0 a 9\Sistema RF Modificacion V2\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.exe
+E:\proyecto de grado 2023\Sistema RF Modificacion V2 desde 0 a 9\Sistema RF Modificacion V2\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.xml
+E:\proyecto de grado 2023\Sistema RF Modificacion V2 desde 0 a 9\Sistema RF Modificacion V2\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.pdb
+E:\proyecto de grado 2023\Sistema RF Modificacion V2 desde 0 a 9\Sistema RF Modificacion V2\SerialPrimera\SerialPrimera\bin\Debug\SerialPrimera.exe
+E:\proyecto de grado 2023\Sistema RF Modificacion V2 desde 0 a 9\Sistema RF Modificacion V2\SerialPrimera\SerialPrimera\bin\Debug\SerialPrimera.pdb
+E:\proyecto de grado 2023\Sistema RF Modificacion V2 desde 0 a 9\Sistema RF Modificacion V2\SerialPrimera\SerialPrimera\bin\Debug\SerialPrimera.xml
+E:\proyecto de grado 2023\Sistema RF Modificacion V2 desde 0 a 9\Sistema RF Modificacion V2\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.vbprojResolveAssemblyReference.cache
+E:\proyecto de grado 2023\Sistema RF Modificacion V2 desde 0 a 9\Sistema RF Modificacion V2\SerialPrimera\SerialPrimera\obj\Debug\WindowsApp1.Form1.resources
+E:\proyecto de grado 2023\Sistema RF Modificacion V2 desde 0 a 9\Sistema RF Modificacion V2\SerialPrimera\SerialPrimera\obj\Debug\WindowsApp1.Resources.resources
+E:\proyecto de grado 2023\Sistema RF Modificacion V2 desde 0 a 9\Sistema RF Modificacion V2\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.vbproj.GenerateResource.Cache
+E:\UMSA_2023\proyecto de grado 2023\Sistema RF Modificacion V2 desde 0 a 9\Sistema RF Modificacion V2\SerialPrimera\SerialPrimera\bin\Debug\SerialPrimera.exe.config
+E:\UMSA_2023\proyecto de grado 2023\Sistema RF Modificacion V2 desde 0 a 9\Sistema RF Modificacion V2\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.exe
+E:\UMSA_2023\proyecto de grado 2023\Sistema RF Modificacion V2 desde 0 a 9\Sistema RF Modificacion V2\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.xml
+E:\UMSA_2023\proyecto de grado 2023\Sistema RF Modificacion V2 desde 0 a 9\Sistema RF Modificacion V2\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.pdb
+E:\UMSA_2023\proyecto de grado 2023\Sistema RF Modificacion V2 desde 0 a 9\Sistema RF Modificacion V2\SerialPrimera\SerialPrimera\bin\Debug\SerialPrimera.exe
+E:\UMSA_2023\proyecto de grado 2023\Sistema RF Modificacion V2 desde 0 a 9\Sistema RF Modificacion V2\SerialPrimera\SerialPrimera\bin\Debug\SerialPrimera.pdb
+E:\UMSA_2023\proyecto de grado 2023\Sistema RF Modificacion V2 desde 0 a 9\Sistema RF Modificacion V2\SerialPrimera\SerialPrimera\bin\Debug\SerialPrimera.xml
+E:\UMSA_2023\proyecto de grado 2023\Sistema RF Modificacion V2 desde 0 a 9\Sistema RF Modificacion V2\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.vbprojResolveAssemblyReference.cache
+E:\UMSA_2023\proyecto de grado 2023\Sistema RF Modificacion V2 desde 0 a 9\Sistema RF Modificacion V2\SerialPrimera\SerialPrimera\obj\Debug\WindowsApp1.Form1.resources
+E:\UMSA_2023\proyecto de grado 2023\Sistema RF Modificacion V2 desde 0 a 9\Sistema RF Modificacion V2\SerialPrimera\SerialPrimera\obj\Debug\WindowsApp1.Resources.resources
+E:\UMSA_2023\proyecto de grado 2023\Sistema RF Modificacion V2 desde 0 a 9\Sistema RF Modificacion V2\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.vbproj.GenerateResource.Cache
+C:\Users\Brayan\Downloads\SerialPrimera\SerialPrimera\bin\Debug\SerialPrimera.exe.config
+C:\Users\Brayan\Downloads\SerialPrimera\SerialPrimera\bin\Debug\SerialPrimera.exe
+C:\Users\Brayan\Downloads\SerialPrimera\SerialPrimera\bin\Debug\SerialPrimera.pdb
+C:\Users\Brayan\Downloads\SerialPrimera\SerialPrimera\bin\Debug\SerialPrimera.xml
+C:\Users\Brayan\Downloads\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.vbproj.AssemblyReference.cache
+C:\Users\Brayan\Downloads\SerialPrimera\SerialPrimera\obj\Debug\WindowsApp1.Form1.resources
+C:\Users\Brayan\Downloads\SerialPrimera\SerialPrimera\obj\Debug\WindowsApp1.Resources.resources
+C:\Users\Brayan\Downloads\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.vbproj.GenerateResource.cache
+C:\Users\Brayan\Downloads\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.vbproj.CoreCompileInputs.cache
+C:\Users\Brayan\Downloads\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.exe
+C:\Users\Brayan\Downloads\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.xml
+C:\Users\Brayan\Downloads\SerialPrimera\SerialPrimera\obj\Debug\SerialPrimera.pdb
