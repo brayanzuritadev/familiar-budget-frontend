@@ -340,5 +340,29 @@ namespace Administracion
                 }
             }
         }
+
+        private void txtSearch_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                e.Handled = true;
+                var userList = service.Search(txtSearch.Text);
+                dataGridView1.DataSource = null;
+                dataGridView1.DataSource = userList;
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            dataGridView1.DataSource = null;
+            FillTable();
+        }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            var userList = service.Search(txtSearch.Text);
+            dataGridView1.DataSource = null;
+            dataGridView1.DataSource = userList;
+        }
     }
 }

@@ -94,7 +94,7 @@ namespace Data.DataAccess
             }
         }
 
-        public List<UserDetailDto> Search(User entity)
+        public List<UserDetailDto> Search(string text)
         {
             try
             {
@@ -103,10 +103,14 @@ namespace Data.DataAccess
                     connection.Open();
 
                     var result = connection.Query<UserDetailDto>(
-                        "SELECT u.userid, u.name, u.photography, u.email, u.roleId, r.rolename FROM \"user\" u " +
-                        "INNER JOIN roles r " +
+                        "SELECT u.userid, u.ci, u.name, u.photography, u.email, u.roleId, r.rolename FROM \"user\" u " +
+                        "INNER JOIN role r " +
                         "ON u.roleid = r.roleid " +
-                        "WHERE u."
+                        "WHERE u.ci like '%' || @Text || '%' OR u.name like '%' || @Text || '%'",
+                        new
+                        {
+                            Text = text
+                        }
                     ).ToList(); // Convertir los resultados a una lista
 
                     return result;

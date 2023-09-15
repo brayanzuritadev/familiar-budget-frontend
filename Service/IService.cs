@@ -13,5 +13,6 @@ namespace Service
         bool Delete(T entity);
         List<K> GetAll();
         K Get(T entity);
+        List<K> Search(string text);
     }
 }

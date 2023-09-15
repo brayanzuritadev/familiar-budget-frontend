@@ -34,6 +34,11 @@ namespace Service
             return userDao.GetAll();
         }
 
+        public List<UserDetailDto> Search(string text)
+        {
+            return userDao.Search(text);
+        }
+
         public bool Update(User entity)
         {
             throw new NotImplementedException();
