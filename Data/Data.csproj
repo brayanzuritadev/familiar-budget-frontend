@@ -95,8 +95,10 @@
     <Compile Include="ApplicationDbContext.cs" />
     <Compile Include="DataAccess\IDao.cs" />
     <Compile Include="DataAccess\UserDao.cs" />
+    <Compile Include="DataAccess\WeaponDao.cs" />
     <Compile Include="Dto\UserDetailDto.cs" />
     <Compile Include="Entity\User.cs" />
+    <Compile Include="Entity\Weapon.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

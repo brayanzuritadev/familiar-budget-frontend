@@ -168,10 +168,7 @@ namespace Administracion
 
         private void txtCi_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
-            {
-                e.Handled = true;
-            }
+
         }
 
         private void txtEmail_TextChanged(object sender, EventArgs e)
@@ -268,6 +265,7 @@ namespace Administracion
                 var editUserForm = new UserEditForm(userSelected);
 
                 editUserForm.ShowDialog();
+                FillTable();
             }
         }
 
@@ -427,8 +425,9 @@ namespace Administracion
                         service.Create(user);
                     }
             }
+            FillTable();
 
-                SLDocument newSL = new SLDocument();
+            SLDocument newSL = new SLDocument();
 
                 newSL.SetCellValue("A1", "CI");
                 newSL.SetCellValue("B1", "Nombre");
@@ -461,8 +460,7 @@ namespace Administracion
                     string fileName = $@"C:\Users\Brayan\Downloads\UsuariosNoValidos_{fechaFormateada}.xlsx";
 
                     newSL.SaveAs(fileName);
-
-                    MessageBox.Show("reporte de 'usuarios no registrados' generado con exito con éxito.");
+                    
 
                     if (File.Exists(fileName))
                     {

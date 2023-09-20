@@ -131,7 +131,7 @@ namespace Administracion
 
         private void btnArm_Click(object sender, EventArgs e)
         {
-            openChildForm(new Weapons());
+            openChildForm(new WeaponDashboard());
         }
 
         private void panel6_Paint(object sender, PaintEventArgs e)

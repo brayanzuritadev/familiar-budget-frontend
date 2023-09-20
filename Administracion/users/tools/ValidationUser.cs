@@ -22,9 +22,9 @@ namespace Administracion.users.tools
 
             var userEntity = userService.Get(user);
 
-            if (userEntity?.Ci == user.Ci || !Regex.IsMatch(user.Ci, @"^\d+$"))
+            if (userEntity?.Ci == user.Ci)
             {
-                result.messages[0] = "Esta cedula de identidad ya existe o se esta enviando letras";
+                result.messages[0] = "Esta cedula de identidad ya existe en la base de datos";
                 result.success = false;
             }
 

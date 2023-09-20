@@ -49,10 +49,9 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(16, 206);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Location = new System.Drawing.Point(21, 254);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(121, 20);
+            this.label6.Size = new System.Drawing.Size(153, 25);
             this.label6.TabIndex = 43;
             this.label6.Text = "Tipo de usuario:";
             // 
@@ -60,10 +59,9 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(16, 270);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Location = new System.Drawing.Point(21, 332);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(154, 20);
+            this.label5.Size = new System.Drawing.Size(192, 25);
             this.label5.TabIndex = 42;
             this.label5.Text = "Cedula de identidad:";
             // 
@@ -71,10 +69,9 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(16, 328);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(21, 404);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(138, 20);
+            this.label4.Size = new System.Drawing.Size(171, 25);
             this.label4.TabIndex = 41;
             this.label4.Text = "Nombre completo:";
             // 
@@ -82,10 +79,9 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(16, 388);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(21, 478);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(52, 20);
+            this.label3.Size = new System.Drawing.Size(66, 25);
             this.label3.TabIndex = 40;
             this.label3.Text = "Email:";
             // 
@@ -93,9 +89,10 @@
             // 
             this.txtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEmail.ForeColor = System.Drawing.Color.Black;
-            this.txtEmail.Location = new System.Drawing.Point(20, 411);
+            this.txtEmail.Location = new System.Drawing.Point(27, 506);
+            this.txtEmail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(306, 26);
+            this.txtEmail.Size = new System.Drawing.Size(407, 30);
             this.txtEmail.TabIndex = 34;
             // 
             // txtCi
@@ -103,9 +100,10 @@
             this.txtCi.BackColor = System.Drawing.SystemColors.Window;
             this.txtCi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCi.ForeColor = System.Drawing.Color.Black;
-            this.txtCi.Location = new System.Drawing.Point(20, 293);
+            this.txtCi.Location = new System.Drawing.Point(27, 361);
+            this.txtCi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtCi.Name = "txtCi";
-            this.txtCi.Size = new System.Drawing.Size(306, 26);
+            this.txtCi.Size = new System.Drawing.Size(407, 30);
             this.txtCi.TabIndex = 31;
             // 
             // btnUpload
@@ -117,9 +115,10 @@
             this.btnUpload.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUpload.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpload.ForeColor = System.Drawing.Color.LightGray;
-            this.btnUpload.Location = new System.Drawing.Point(35, 159);
+            this.btnUpload.Location = new System.Drawing.Point(47, 196);
+            this.btnUpload.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnUpload.Name = "btnUpload";
-            this.btnUpload.Size = new System.Drawing.Size(274, 33);
+            this.btnUpload.Size = new System.Drawing.Size(365, 41);
             this.btnUpload.TabIndex = 29;
             this.btnUpload.Text = "SUBIR FOTOGRAFIA";
             this.btnUpload.UseVisualStyleBackColor = false;
@@ -131,9 +130,10 @@
             this.cbUserType.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbUserType.ForeColor = System.Drawing.Color.Black;
             this.cbUserType.FormattingEnabled = true;
-            this.cbUserType.Location = new System.Drawing.Point(20, 229);
+            this.cbUserType.Location = new System.Drawing.Point(27, 282);
+            this.cbUserType.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbUserType.Name = "cbUserType";
-            this.cbUserType.Size = new System.Drawing.Size(306, 28);
+            this.cbUserType.Size = new System.Drawing.Size(407, 33);
             this.cbUserType.TabIndex = 30;
             this.cbUserType.Tag = "";
             // 
@@ -146,11 +146,12 @@
             this.btnRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRegister.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegister.ForeColor = System.Drawing.Color.LightGray;
-            this.btnRegister.Location = new System.Drawing.Point(20, 465);
+            this.btnRegister.Location = new System.Drawing.Point(27, 572);
+            this.btnRegister.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnRegister.Name = "btnRegister";
-            this.btnRegister.Size = new System.Drawing.Size(306, 33);
+            this.btnRegister.Size = new System.Drawing.Size(408, 41);
             this.btnRegister.TabIndex = 37;
-            this.btnRegister.Text = "ACTUALIZAR";
+            this.btnRegister.Text = "EDITAR";
             this.btnRegister.UseVisualStyleBackColor = false;
             this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
             // 
@@ -158,17 +159,19 @@
             // 
             this.txtName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtName.ForeColor = System.Drawing.Color.Black;
-            this.txtName.Location = new System.Drawing.Point(20, 352);
+            this.txtName.Location = new System.Drawing.Point(27, 433);
+            this.txtName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(306, 26);
+            this.txtName.Size = new System.Drawing.Size(407, 30);
             this.txtName.TabIndex = 33;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(110, 29);
+            this.pictureBox1.Location = new System.Drawing.Point(147, 36);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(124, 124);
+            this.pictureBox1.Size = new System.Drawing.Size(165, 153);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 32;
             this.pictureBox1.TabStop = false;
@@ -176,10 +179,10 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Administracion.Properties.Resources.cancelar;
-            this.pictureBox2.Location = new System.Drawing.Point(316, 10);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Location = new System.Drawing.Point(421, 12);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(21, 19);
+            this.pictureBox2.Size = new System.Drawing.Size(28, 23);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 44;
             this.pictureBox2.TabStop = false;
@@ -187,9 +190,9 @@
             // 
             // UserEditForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(346, 523);
+            this.ClientSize = new System.Drawing.Size(461, 644);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -203,7 +206,7 @@
             this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.txtName);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "UserEditForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UserEditForm";
