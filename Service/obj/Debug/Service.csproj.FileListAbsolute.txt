@@ -57,3 +57,6 @@ C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\Google.Apis.Core.xml
 C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\Google.Apis.Drive.v3.pdb
 C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\Google.Apis.Drive.v3.xml
 C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\Google.Apis.Sheets.v4.dll
+C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\Google.Apis.Sheets.v4.pdb
+C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\Google.Apis.Sheets.v4.xml

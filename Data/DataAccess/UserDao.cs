@@ -45,30 +45,29 @@ namespace Data.DataAccess
         {
             try
             {
-
                 using (var connection = GetConnection())
                 {
                     connection.Open();
 
                     var result = connection.QueryFirstOrDefault<UserDetailDto>(
-                        "SELECT * FROM \"user\" WHERE email = @Email OR userId = @UserId",
-                        new { 
+                        "SELECT * FROM \"user\" WHERE email = @Email OR ci = @Ci",
+                        new
+                        {
                             Email = entity.Email,
-                            UserId = entity.UserId
+                            Ci = entity.Ci
                         }
                     );
 
                     return result;
                 }
-
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Ocurrió una excepción al insertar en la base de datos: " + ex.Message);
-                return null;
-                throw;
+                Console.WriteLine("Ocurrió una excepción al obtener datos de la base de datos: " + ex.Message);
+                throw; 
             }
         }
+
 
         public List<UserDetailDto> GetAll()
         {
@@ -125,7 +124,26 @@ namespace Data.DataAccess
 
         public bool Update(User entity)
         {
-            throw new NotImplementedException();
+            try
+            {
+                using (var connection = GetConnection())
+                {
+                    connection.Open();
+
+                    int rowsAffected = connection.Execute(
+                        "UPDATE \"user\" SET name = @Name, photography = @Photography, " +
+                        "email = @Email, ci = @Ci, roleId = @RoleId " +
+                        "WHERE UserId = @UserId", entity);
+
+                    return rowsAffected > 0;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Ocurrió una excepción al actualizar en la base de datos: " + ex.Message);
+                return false;
+            }
         }
+
     }
 }

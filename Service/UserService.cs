@@ -41,7 +41,7 @@ namespace Service
 
         public bool Update(User entity)
         {
-            throw new NotImplementedException();
+            return userDao.Update(entity);
         }
     }
 }

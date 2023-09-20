@@ -9,7 +9,7 @@ namespace Data.Dto
     public class UserDetailDto
     {
         public int UserId { get; set; }
-        public int Ci { get; set; }
+        public string Ci { get; set; }
         public string Name { get; set; }
         public string Photography { get; set; }
         public string Password { get; set; }
