@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Administracion.figura;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,10 +15,12 @@ namespace Administracion
 {
     public partial class MainForm : Form
     {
+        bool show = false;
         public MainForm()
         {
             InitializeComponent();
             defineColorAndFont();
+            panel7.Visible = false;
         }
 
         [DllImport("user32.Dll", EntryPoint = "ReleaseCapture")]
@@ -67,12 +70,14 @@ namespace Administracion
             btnPointValue.ForeColor = Tools.textColor;
             btnPolig.ForeColor = Tools.textColor;
             btnReport.ForeColor = Tools.textColor;
+            btnUnitMilitary.ForeColor = Tools.textColor;
 
             btnUsers.Font = Tools.fontTitleButtons;
             btnArm.Font = Tools.fontTitleButtons;
             btnPointValue.Font = Tools.fontTitleButtons;
             btnPolig.Font = Tools.fontTitleButtons;
             btnReport.Font = Tools.fontTitleButtons;
+            btnUnitMilitary.Font = Tools.fontTitleButtons;
         }
 
         private void titleBar_MouseDown(object sender, MouseEventArgs e)
@@ -109,7 +114,6 @@ namespace Administracion
         {
             foreach (Control control in container.Controls)
             {
-                //calculate the position for center the child form
                 int x = (container.Width - control.Width) / 2;
                 int y = (container.Height - control.Height) / 2;
                 control.Location = new Point(x, y);
@@ -141,7 +145,70 @@ namespace Administracion
 
         private void btnPointValue_Click(object sender, EventArgs e)
         {
-            openChildForm(new PointValue());
+            showSubMenuReport();
+        }
+
+        private void showSubMenuReport()
+        {
+            if (show == false)
+            {
+                panel7.Visible = true;
+                panel7.Location = new Point(70, 180);
+                btnUnitMilitary.Location = new Point(20, 250);//312
+                panel6.Location = new Point(10, 250);
+
+                btnPolig.Location = new Point(20, 292);
+                panel4.Location = new Point(10, 292);
+
+                btnReport.Location = new Point(20, 334);
+                panel5.Location = new Point(10, 334);
+
+                show = true;
+            }
+            else
+            {
+                panel7.Visible = false;
+                btnUnitMilitary.Location = new Point(20, 184);//312
+                panel6.Location = new Point(10, 184);
+
+                btnPolig.Location = new Point(20, 226);
+                panel4.Location = new Point(10, 226);
+
+                btnReport.Location = new Point(20, 268);
+                panel5.Location = new Point(10, 268);
+
+                show = false;
+            }
+        }
+
+        private void menu_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            openChildForm(new FiguraDashboard("PointValue"));
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            openChildForm(new FiguraDashboard("Figure"));
+        }
+
+        private void btnReport_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnUnitMilitary_Click(object sender, EventArgs e)
+        {
+            openChildForm(new MilitaryDashboardForm());
+        }
+
+        private void container_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

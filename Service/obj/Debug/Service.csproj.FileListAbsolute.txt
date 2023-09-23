@@ -3,6 +3,7 @@ C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\Service.dll
 C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\Service.pdb
 C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\BCrypt.Net-Next.dll
 C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\Data.dll
+C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\DocumentFormat.OpenXml.dll
 C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\Google.Apis.Auth.dll
 C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\Google.Apis.Auth.PlatformServices.dll
 C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\Google.Apis.Core.dll
@@ -11,7 +12,10 @@ C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\Google.Apis.Drive.v3.d
 C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\Google.Apis.PlatformServices.dll
 C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\Google.Apis.Sheets.v4.dll
 C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\SpreadsheetLight.dll
 C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\System.Buffers.dll
+C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\System.Drawing.Common.dll
+C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\System.IO.Packaging.dll
 C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\System.Memory.dll
 C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\System.Numerics.Vectors.dll
 C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
@@ -29,6 +33,7 @@ C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\System.Text.Encodings.
 C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\Data.pdb
 C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\Data.dll.config
 C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\BCrypt.Net-Next.xml
+C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\DocumentFormat.OpenXml.xml
 C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\Google.Apis.pdb
 C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\Google.Apis.xml
 C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\Google.Apis.Auth.pdb
@@ -40,7 +45,9 @@ C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\Google.Apis.Drive.v3.x
 C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\Google.Apis.Sheets.v4.pdb
 C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\Google.Apis.Sheets.v4.xml
 C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\SpreadsheetLight.xml
 C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\System.Buffers.xml
+C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\System.IO.Packaging.xml
 C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\System.Memory.xml
 C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\Brayan\Downloads\SerialPrimera\Service\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml

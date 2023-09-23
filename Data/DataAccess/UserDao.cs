@@ -105,7 +105,7 @@ namespace Data.DataAccess
                         "SELECT u.userid, u.ci, u.name, u.photography, u.email, u.roleId, r.rolename FROM \"user\" u " +
                         "INNER JOIN role r " +
                         "ON u.roleid = r.roleid " +
-                        "WHERE u.ci like '%' || @Text || '%' OR u.name like '%' || @Text || '%'",
+                        "WHERE UPPER(u.ci) like '%' || UPPER(@Text) || '%' OR UPPER(u.name) like '%' || UPPER(@Text) || '%'",
                         new
                         {
                             Text = text

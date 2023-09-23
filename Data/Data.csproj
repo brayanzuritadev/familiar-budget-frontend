@@ -84,6 +84,7 @@
     <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
     </Reference>
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -93,10 +94,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationDbContext.cs" />
+    <Compile Include="DataAccess\FigureDao.cs" />
     <Compile Include="DataAccess\IDao.cs" />
+    <Compile Include="DataAccess\PointValueDao.cs" />
+    <Compile Include="DataAccess\UnitMilitaryDao.cs" />
     <Compile Include="DataAccess\UserDao.cs" />
     <Compile Include="DataAccess\WeaponDao.cs" />
+    <Compile Include="Dto\FigureDetailDto.cs" />
+    <Compile Include="Dto\PointDetailDto.cs" />
     <Compile Include="Dto\UserDetailDto.cs" />
+    <Compile Include="Entity\Figure.cs" />
+    <Compile Include="Entity\Point.cs" />
+    <Compile Include="Entity\UnitMilitary.cs" />
     <Compile Include="Entity\User.cs" />
     <Compile Include="Entity\Weapon.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -1,4 +1,5 @@
-﻿using Data.Dto;
+﻿using Administracion.users.tools;
+using Data.Dto;
 using Data.Entity;
 using Service;
 using System;
@@ -35,18 +36,28 @@ namespace Administracion.users
             user.Email = txtEmail.Text;
             user.RoleId = cbUserType.SelectedIndex+1;
             user.Photography = imageId;
-           
 
-            var result = userService.Update(user);
+            ValidationUser validationUser = new ValidationUser();
 
-            if (result)
+            var userValid = validationUser.userValid(user);
+
+            if (userValid.success)
             {
-                MessageBox.Show("Usuario actualizado");
-                this.Close();
+                var result = userService.Update(user);
+                if (result)
+                {
+                    MessageBox.Show("Usuario actualizado");
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("No se pudo actualizar al Usuario");
+                }
             }
             else
             {
                 MessageBox.Show("No se pudo actualizar al Usuario");
+
             }
         }
 

@@ -10,6 +10,7 @@ namespace Data.Entity
     {
         public int WeaponId {  get; set; }
         public string WeaponNumber { get; set; }
+        public string WeaponName { get; set; }
         public string Description { get; set; }
     }
 }

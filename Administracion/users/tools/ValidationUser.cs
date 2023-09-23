@@ -22,21 +22,31 @@ namespace Administracion.users.tools
 
             var userEntity = userService.Get(user);
 
-            if (userEntity?.Ci == user.Ci)
+            if (userEntity?.Ci == user.Ci && user.UserId == 0)
             {
                 result.messages[0] = "Esta cedula de identidad ya existe en la base de datos";
+                MessageBox.Show(result.messages[0]);
+                result.success = false;
+            }
+
+            if (userEntity?.Ci == user.Ci && user.UserId != userEntity.UserId)
+            {
+                result.messages[0] = "Esta cedula de identidad pertence a otro usuario ya registrado";
+                MessageBox.Show(result.messages[0]);
                 result.success = false;
             }
 
             if (string.IsNullOrEmpty(user.Name))
             {
                 result.messages[1] = "no se esta enviando el nombre";
+                MessageBox.Show(result.messages[1]);
                 result.success = false;
             }
 
-            if (userEntity?.Email == user.Email || !Regex.IsMatch(user.Email, @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$"))
+            if ((userEntity?.Email == user.Email && userEntity?.UserId == 0) || !Regex.IsMatch(user.Email, @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$"))
             {
                 result.messages[2] = "Este email ya existe o se esta enviando un formato incorrecto de email";
+                MessageBox.Show(result.messages[2]);
                 result.success = false;
             }
 

@@ -1,11 +1,13 @@
 ﻿using Data.DataAccess;
 using Data.Entity;
+using Service.Tools;
 using Service.Validations;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Service
 {
@@ -13,14 +15,19 @@ namespace Service
     {
         
         WeaponDao weaponDao = new WeaponDao();
-        public bool Create(Weapon entity)
+        public ResultRequest Create(Weapon entity)
         {
+            ResultRequest result = new ResultRequest();
             WeaponsValidation weaponsValidation = new WeaponsValidation();
+            var weaponValid = weaponsValidation.WeaponValid(entity);
 
-            if (weaponsValidation.WeaponValid(entity))
-                return weaponDao.Create(entity);
-
-            return false;
+            if (weaponValid.Success)
+            {
+                result.Success = weaponDao.Create(entity);
+                return result;
+            }
+            
+            return weaponValid;
         }
 
         public bool Delete(Weapon entity)
@@ -35,15 +42,30 @@ namespace Service
 
         public List<Weapon> GetAll()
         {
-            throw new NotImplementedException();
+            return weaponDao.GetAll();
         }
 
         public List<Weapon> Search(string text)
         {
-            throw new NotImplementedException();
+            return weaponDao.Search(text);
         }
 
         public bool Update(Weapon entity)
+        {
+            var weaponValidation = new WeaponsValidation();
+
+            if (weaponValidation.WeaponValid(entity).Success)
+            {
+                return weaponDao.Update(entity);
+            }
+            else
+            {
+                MessageBox.Show("El numero de arma ya existe");
+                return false;
+            }
+        }
+
+        bool IService<Weapon, Weapon>.Create(Weapon entity)
         {
             throw new NotImplementedException();
         }

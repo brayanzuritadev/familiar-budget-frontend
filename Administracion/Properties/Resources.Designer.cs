@@ -73,6 +73,16 @@ namespace Administracion.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap carpa {
+            get {
+                object obj = ResourceManager.GetObject("carpa", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cerca {
             get {
                 object obj = ResourceManager.GetObject("cerca", resourceCulture);
