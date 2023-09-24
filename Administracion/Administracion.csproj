@@ -106,6 +106,12 @@
     <Compile Include="MilitaryDashboardForm.Designer.cs">
       <DependentUpon>MilitaryDashboardForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="poligono\PConfigurationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="poligono\PConfigurationForm.Designer.cs">
+      <DependentUpon>PConfigurationForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tools\Result.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
@@ -172,6 +178,9 @@
     <EmbeddedResource Include="MilitaryDashboardForm.resx">
       <DependentUpon>MilitaryDashboardForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="poligono\PConfigurationForm.resx">
+      <DependentUpon>PConfigurationForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
@@ -228,6 +237,7 @@
   <ItemGroup>
     <None Include="Resources\carpa.png" />
     <Content Include="Resources\cerca %284%29.png" />
+    <None Include="Resources\FONDO 1.jpg" />
     <Content Include="Resources\menos %285%29.png" />
     <None Include="Resources\cancelar.png" />
     <None Include="Resources\cerca.png" />

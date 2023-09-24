@@ -1,4 +1,5 @@
 ﻿using Administracion.figura;
+using Administracion.poligono;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -122,10 +123,16 @@ namespace Administracion
 
         private void btnPolig_Click(object sender, EventArgs e)
         {
-            Form1 frm = new Form1();
+            //Form1 frm = new Form1();
+            var frm = new PConfigurationForm(this);
             this.Hide();
             frm.ShowDialog();
             this.Show();
+        }
+
+        public void showMessage()
+        {
+            MessageBox.Show("hola");
         }
 
         private void timer1_Tick(object sender, EventArgs e)

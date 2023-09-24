@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.label2 = new System.Windows.Forms.Label();
-            this.cbUserType = new System.Windows.Forms.ComboBox();
-            this.txtWeapon = new System.Windows.Forms.TextBox();
+            this.cbDepartment = new System.Windows.Forms.ComboBox();
+            this.txtMilitary = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.btnRegister = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -49,31 +49,31 @@
             this.label2.Text = "Departamento:";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // cbUserType
+            // cbDepartment
             // 
-            this.cbUserType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbUserType.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbUserType.ForeColor = System.Drawing.Color.Black;
-            this.cbUserType.FormattingEnabled = true;
-            this.cbUserType.Location = new System.Drawing.Point(27, 218);
-            this.cbUserType.Margin = new System.Windows.Forms.Padding(4);
-            this.cbUserType.Name = "cbUserType";
-            this.cbUserType.Size = new System.Drawing.Size(407, 33);
-            this.cbUserType.TabIndex = 42;
-            this.cbUserType.Tag = "";
-            this.cbUserType.SelectedIndexChanged += new System.EventHandler(this.cbUserType_SelectedIndexChanged);
+            this.cbDepartment.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbDepartment.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbDepartment.ForeColor = System.Drawing.Color.Black;
+            this.cbDepartment.FormattingEnabled = true;
+            this.cbDepartment.Location = new System.Drawing.Point(27, 218);
+            this.cbDepartment.Margin = new System.Windows.Forms.Padding(4);
+            this.cbDepartment.Name = "cbDepartment";
+            this.cbDepartment.Size = new System.Drawing.Size(407, 33);
+            this.cbDepartment.TabIndex = 42;
+            this.cbDepartment.Tag = "";
+            this.cbDepartment.SelectedIndexChanged += new System.EventHandler(this.cbUserType_SelectedIndexChanged);
             // 
-            // txtWeapon
+            // txtMilitary
             // 
-            this.txtWeapon.BackColor = System.Drawing.SystemColors.Window;
-            this.txtWeapon.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtWeapon.ForeColor = System.Drawing.Color.Black;
-            this.txtWeapon.Location = new System.Drawing.Point(28, 142);
-            this.txtWeapon.Margin = new System.Windows.Forms.Padding(4);
-            this.txtWeapon.Name = "txtWeapon";
-            this.txtWeapon.Size = new System.Drawing.Size(407, 30);
-            this.txtWeapon.TabIndex = 39;
-            this.txtWeapon.TextChanged += new System.EventHandler(this.txtWeapon_TextChanged);
+            this.txtMilitary.BackColor = System.Drawing.SystemColors.Window;
+            this.txtMilitary.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMilitary.ForeColor = System.Drawing.Color.Black;
+            this.txtMilitary.Location = new System.Drawing.Point(28, 142);
+            this.txtMilitary.Margin = new System.Windows.Forms.Padding(4);
+            this.txtMilitary.Name = "txtMilitary";
+            this.txtMilitary.Size = new System.Drawing.Size(407, 30);
+            this.txtMilitary.TabIndex = 39;
+            this.txtMilitary.TextChanged += new System.EventHandler(this.txtWeapon_TextChanged);
             // 
             // label6
             // 
@@ -115,6 +115,7 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 46;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // UnitMilitaryEditForm
             // 
@@ -124,8 +125,8 @@
             this.ClientSize = new System.Drawing.Size(460, 450);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.cbUserType);
-            this.Controls.Add(this.txtWeapon);
+            this.Controls.Add(this.cbDepartment);
+            this.Controls.Add(this.txtMilitary);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.btnRegister);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -141,8 +142,8 @@
         #endregion
 
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox cbUserType;
-        private System.Windows.Forms.TextBox txtWeapon;
+        private System.Windows.Forms.ComboBox cbDepartment;
+        private System.Windows.Forms.TextBox txtMilitary;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button btnRegister;
         private System.Windows.Forms.PictureBox pictureBox2;

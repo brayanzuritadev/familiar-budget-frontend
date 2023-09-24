@@ -1,4 +1,5 @@
 ﻿using Administracion.Unit_Military;
+using Administracion.weapon;
 using Data.Dto;
 using Data.Entity;
 using DocumentFormat.OpenXml.Drawing.Diagrams;
@@ -136,6 +137,20 @@ namespace Administracion
             {
                 e.Handled = true;
                 search();
+            }
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.ColumnIndex == 3 && e.RowIndex >= 0)
+            {
+                string id = dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString();
+                var Selected = unitMilitaryList.Find(military => military.MilitaryUnitId == Convert.ToInt32(id));
+
+                var editUserForm = new UnitMilitaryEditForm(Selected);
+
+                editUserForm.ShowDialog();
+                fillTable();
             }
         }
     }

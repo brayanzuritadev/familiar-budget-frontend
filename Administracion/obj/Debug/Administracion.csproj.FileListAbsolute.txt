@@ -74,7 +74,9 @@ C:\Users\Brayan\Downloads\SerialPrimera\Administracion\obj\Debug\Administracion.
 C:\Users\Brayan\Downloads\SerialPrimera\Administracion\obj\Debug\Administracion.Login.resources
 C:\Users\Brayan\Downloads\SerialPrimera\Administracion\obj\Debug\Administracion.MainForm.resources
 C:\Users\Brayan\Downloads\SerialPrimera\Administracion\obj\Debug\Administracion.MilitaryDashboardForm.resources
+C:\Users\Brayan\Downloads\SerialPrimera\Administracion\obj\Debug\Administracion.poligono.PConfigurationForm.resources
 C:\Users\Brayan\Downloads\SerialPrimera\Administracion\obj\Debug\Administracion.Properties.Resources.resources
+C:\Users\Brayan\Downloads\SerialPrimera\Administracion\obj\Debug\Administracion.Unit_Military.UnitMilitaryEditForm.resources
 C:\Users\Brayan\Downloads\SerialPrimera\Administracion\obj\Debug\Administracion.users.UserEditForm.resources
 C:\Users\Brayan\Downloads\SerialPrimera\Administracion\obj\Debug\Administracion.Users.resources
 C:\Users\Brayan\Downloads\SerialPrimera\Administracion\obj\Debug\Administracion.WeaponDashboard.resources
@@ -84,4 +86,3 @@ C:\Users\Brayan\Downloads\SerialPrimera\Administracion\obj\Debug\Administracion.
 C:\Users\Brayan\Downloads\SerialPrimera\Administracion\obj\Debug\Administracion.csproj.CopyComplete
 C:\Users\Brayan\Downloads\SerialPrimera\Administracion\obj\Debug\Administracion.exe
 C:\Users\Brayan\Downloads\SerialPrimera\Administracion\obj\Debug\Administracion.pdb
-C:\Users\Brayan\Downloads\SerialPrimera\Administracion\obj\Debug\Administracion.Unit_Military.UnitMilitaryEditForm.resources
