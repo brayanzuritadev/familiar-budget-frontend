@@ -112,6 +112,12 @@
     <Compile Include="poligono\PConfigurationForm.Designer.cs">
       <DependentUpon>PConfigurationForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="PTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PTable.Designer.cs">
+      <DependentUpon>PTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tools\Result.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
@@ -185,6 +191,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PTable.resx">
+      <DependentUpon>PTable.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Unit Military\UnitMilitaryEditForm.resx">
       <DependentUpon>UnitMilitaryEditForm.cs</DependentUpon>

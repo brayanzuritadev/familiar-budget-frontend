@@ -86,3 +86,4 @@ C:\Users\Brayan\Downloads\SerialPrimera\Administracion\obj\Debug\Administracion.
 C:\Users\Brayan\Downloads\SerialPrimera\Administracion\obj\Debug\Administracion.csproj.CopyComplete
 C:\Users\Brayan\Downloads\SerialPrimera\Administracion\obj\Debug\Administracion.exe
 C:\Users\Brayan\Downloads\SerialPrimera\Administracion\obj\Debug\Administracion.pdb
+C:\Users\Brayan\Downloads\SerialPrimera\Administracion\obj\Debug\Administracion.PTable.resources

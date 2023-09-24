@@ -102,6 +102,7 @@
     <Compile Include="DataAccess\WeaponDao.cs" />
     <Compile Include="Dto\FigureDetailDto.cs" />
     <Compile Include="Dto\PointDetailDto.cs" />
+    <Compile Include="Dto\PoligonoDetailDto.cs" />
     <Compile Include="Dto\UserDetailDto.cs" />
     <Compile Include="Entity\Figure.cs" />
     <Compile Include="Entity\Point.cs" />

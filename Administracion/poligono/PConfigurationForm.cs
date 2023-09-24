@@ -1,5 +1,6 @@
 ﻿using Data.Dto;
 using Data.Entity;
+using DocumentFormat.OpenXml.Bibliography;
 using Service;
 using System;
 using System.Collections.Generic;
@@ -21,9 +22,9 @@ namespace Administracion.poligono
         List<Weapon> weapons = new List<Weapon>();
         List<UserDetailDto> users = new List<UserDetailDto>();
 
-        public MainForm _form;
+        public PTable _form;
 
-        public PConfigurationForm(MainForm form)
+        public PConfigurationForm(PTable form)
         {
             InitializeComponent();
 
@@ -33,6 +34,8 @@ namespace Administracion.poligono
             createTableWeapon();
             fillTableUser();
             fillTableWeapon();
+
+            fillcb();
 
             //dataGridView2.Visible = false;
 
@@ -116,9 +119,51 @@ namespace Administracion.poligono
             dataGridView2.AllowUserToResizeRows = false;
         }
 
+        private void fillcb()
+        {
+            cbLine.Items.Add(1);
+            cbLine.Items.Add(2);
+            cbLine.Items.Add(3);
+            cbLine.Items.Add(4);
+            cbLine.Items.Add(5);
+            cbLine.Items.Add(6);
+            cbLine.Items.Add(7);
+            cbLine.Items.Add(8);
+            cbLine.Items.Add(9);
+            cbLine.Items.Add(10);
+
+            cbLine.SelectedIndex = 0;
+        }
+
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            
+
+            if (txtCi.Text == "")
+            {
+                MessageBox.Show("Es nesesario que seleccione un tirador");
+                return;
+            }
+            if (txtWeaponNumber.Text == "")
+            {
+                MessageBox.Show("Es nesesario asignarle un arma al tirador");
+                return;
+            }
+
+            var p = new PoligonoDetailDto();
+
+            var user = users.Find(x => x.Ci == txtCi.Text);
+            var weapon = weapons.Find(x => x.WeaponNumber == txtWeaponNumber.Text);
+
+            p.Ci = user.Ci;
+            p.Photography = user.Photography;
+            p.Name = user.Name;
+            p.WeaponNumber = weapon.WeaponNumber;
+            p.WeaponName = weapon.WeaponName;
+            p.LineId = Convert.ToInt32(cbLine.SelectedItem);
+
+            p.Name = txtName.Text;
+            _form.poligonoDetail.Add(p);
+            _form.filltable(_form.poligonoDetail);
         }
 
         private void dataGridView2_CellContentClick_1(object sender, DataGridViewCellEventArgs e)

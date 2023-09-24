@@ -1,5 +1,6 @@
 ﻿using Administracion.figura;
 using Administracion.poligono;
+using Data.Dto;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -17,11 +18,17 @@ namespace Administracion
     public partial class MainForm : Form
     {
         bool show = false;
+        PTable pTable = new PTable();
+
+        public List<PoligonoDetailDto> poligonoDetail = new List<PoligonoDetailDto>();
         public MainForm()
         {
             InitializeComponent();
             defineColorAndFont();
             panel7.Visible = false;
+
+            
+            openChildForm(pTable);
         }
 
         [DllImport("user32.Dll", EntryPoint = "ReleaseCapture")]
@@ -124,7 +131,7 @@ namespace Administracion
         private void btnPolig_Click(object sender, EventArgs e)
         {
             //Form1 frm = new Form1();
-            var frm = new PConfigurationForm(this);
+            var frm = new PConfigurationForm(pTable);
             this.Hide();
             frm.ShowDialog();
             this.Show();
